@@ -1,0 +1,20 @@
+# Shell Style Guide
+https://google.github.io/styleguide/shell.xml
+
+# Deepin desktop
+https://www.omgubuntu.co.uk/2018/06/how-to-install-deepin-desktop-environment-on-ubuntu-18-04
+
+# Pantheon desktop
+https://linuxconfig.org/how-to-install-pantheon-desktop-on-ubuntu-18-04-linux-desktop
+
+# EFL desktop
+https://www.enlightenment.org/docs/distros/ubuntu-start.md
+
+# Brave browser
+http://ubuntuhandbook.org/index.php/2018/12/how-to-install-brave-web-browser-in-ubuntu-linux-mint/
+
+# Sublime text 3
+https://itsfoss.com/sublime-text-3-linux/
+
+# WPS office
+http://wps-community.org/downloads
