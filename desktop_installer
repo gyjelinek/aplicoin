@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# Install destop environment
+
+# Deepin desktop
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:leaeasy/dde
+sudo apt update
+sudo apt install dde dde-file-manager
+sudo apt install deepin-gtk-theme
+
+# Pantheon desktop
+#sudo add-apt-repository ppa:elementary-os/stable
+#sudo apt update
+#sudo apt install elementary-desktop
+
+# EFL desktop
+#sudo add-apt-repository ppa:niko2040/e19
+#sudo apt update
+#sudo apt install libefl-dev
+#sudo apt install enlightenment
+# sudo apt install gcc
+
+# Cinnamon desktop
+#sudo add-repository universe
+#sudo apt update
+#sudo apt install cinnamon-desktop-environment lightdm
