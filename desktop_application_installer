@@ -73,7 +73,6 @@ cd ~/Downloads
 wget -q - https://www.levien.com/type/myfonts/Inconsolata.otf
 wget -q - https://www.fontsquirrel.com/fonts/download/open-sans
 unzip open-sans && rm open-sans
-rm 'Apache License.txt'
 sudo chown root:root Inconsolata.otf
 sudo chown root:root OpenSans*.ttf
 sudo chmod 644 Inconsolata.otf
@@ -82,6 +81,7 @@ sudo mkdir /usr/share/fonts/opentype
 sudo mkdir /usr/share/fonts/truetype/open-sans
 sudo mv Inconsolata.otf /usr/share/fonts/opentype
 sudo mv OpenSans*.ttf /usr/share/fonts/truetype/open-sans
+sudo mv 'Apache License.txt' /usr/share/fonts/truetype/open-sans
 sudo fc-cache -f -v
 
 # Nordvpn
